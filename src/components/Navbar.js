@@ -79,7 +79,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Контакт
               </Link>
-              <a className="navbar-item" href="https://en.surgeryconf.info/">
+              <a className="navbar-item" href="https://flamboyant-turing-4b65b1.netlify.com">
                 English version
               </a>
             </div>
