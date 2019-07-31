@@ -1,7 +1,9 @@
 ---
 templateKey: sponsors-page
-heading: 'Спонсори '
-description: 'Конференція є можливою завдяки підтримці наших спонсорів:'
+heading: Спонсори і партнери
+description: >-
+  Якщо ви бажаєте стати спонсором заходу, зв'яжіться з нами, і ми обговоримо
+  деталі
 intro:
   blurbs:
     - image: /img/karl-storz-logo.jpg
