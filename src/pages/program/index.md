@@ -1,8 +1,8 @@
 ---
 templateKey: program-page
 title: >-
-  Орієнтовна програма конференції (слідкуйте за оновленнями) Approximate
-  conference program (follow the updates)
+  Орієнтовна програма курсу (слідкуйте за оновленнями) Approximate cource
+  program (follow the updates)
 main:
   description: '-'
   heading: '-'
