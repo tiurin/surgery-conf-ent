@@ -8,10 +8,12 @@ intro:
   blurbs:
     - image: /img/karl-storz-logo.jpg
       text: KARL STORZ Ukraine
-      url: https://www.karlstorz.com/ua/ru/ukraine-kiev.htm
+      url: 'https://www.karlstorz.com/ua/ru/ukraine-kiev.htm'
     - image: /img/лого-больница-мечникова.jpg
       text: Дніпровська обласна клінічна лікарня ім. І.І. Мечнікова
+      url: 'http://www.mechnikova.com/'
     - image: /img/шдм_original.png
       text: Школа доказової медицини
+      url: 'https://shdm.school/'
 ---
 
