@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-const FeatureGrid = ({ gridItems }) => (
+const FeatureGrid = ({ gridItems }) => {
+  return (
   <div className="columns is-multiline">
     {gridItems.map(item => (
       <div key={item.text} className="column is-6">
@@ -17,14 +18,19 @@ const FeatureGrid = ({ gridItems }) => (
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
-          <p>
-            <a className="navbar-item" href={item.url}>{item.text}</a>
+          if ({item.url}) {
+            <p>
+            <a href={item.url}>{item.text}</a>
           </p>
+          } else {
+            <p>{item.text}</p>
+          }
+          
         </section>
       </div>
     ))}
   </div>
-)
+)}
 
 FeatureGrid.propTypes = {
   gridItems: PropTypes.arrayOf(
