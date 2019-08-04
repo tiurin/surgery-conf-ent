@@ -6,20 +6,6 @@ const ProgramPagePreview = ({ entry, widgetFor, getAsset }) => (
   <ProgramPageTemplate
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
-    main={{
-      image1: {
-        image: getAsset(entry.getIn(['data', 'main', 'image1', 'image'])),
-        alt: entry.getIn(['data', 'main', 'image1', 'alt']),
-      },
-      image2: {
-        image: getAsset(entry.getIn(['data', 'main', 'image2', 'image'])),
-        alt: entry.getIn(['data', 'main', 'image2', 'alt']),
-      },
-      image3: {
-        image: getAsset(entry.getIn(['data', 'main', 'image3', 'image'])),
-        alt: entry.getIn(['data', 'main', 'image3', 'alt']),
-      },
-    }}
   />
 )
 

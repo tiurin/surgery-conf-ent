@@ -27,27 +27,6 @@ export const ProgramPageTemplate = ({
               </div>
             </div>
           </div>
-          <div className="tile is-ancestor">
-            <div className="tile is-vertical">
-              <div className="tile">
-                <div className="tile is-parent is-vertical">
-                  <article className="tile is-child">
-                    <PreviewCompatibleImage imageInfo={main.image1} />
-                  </article>
-                </div>
-                <div className="tile is-parent">
-                  <article className="tile is-child">
-                    <PreviewCompatibleImage imageInfo={main.image2} />
-                  </article>
-                </div>
-              </div>
-              <div className="tile is-parent">
-                <article className="tile is-child">
-                  <PreviewCompatibleImage imageInfo={main.image3} />
-                </article>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </div>
@@ -87,38 +66,6 @@ export const programPageQuery = graphql`
       html
       frontmatter {
         title
-        main {
-          image1 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image2 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image3 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
       }
     }
   }
