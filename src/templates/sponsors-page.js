@@ -78,6 +78,7 @@ export const sponsorsPageQuery = graphql`
               }
             }
             text
+            url
           }
           heading
           description
