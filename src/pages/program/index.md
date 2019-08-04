@@ -4,8 +4,6 @@ title: >-
   Орієнтовна програма курсу (слідкуйте за оновленнями) Approximate cource
   program (follow the updates)
 main:
-  description: '-'
-  heading: '-'
   image1:
     alt: '?'
     image: /img/без-названия.jpg
