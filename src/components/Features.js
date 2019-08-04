@@ -8,7 +8,7 @@ const FeatureGrid = ({ gridItems }) => {
     {gridItems.map(item => {
       let imageText;
       if (item.url) {
-        imageText = <p><a href={item.url}>{item.text}</a></p>;
+        imageText = <p><a href={item.url} target="_blank" >{item.text}</a></p>;
       } else {
         imageText = <p>{item.text}</p>;
       }
