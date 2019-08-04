@@ -18,7 +18,7 @@ const FeatureGrid = ({ gridItems }) => (
             </div>
           </div>
           <p>
-            <a href="{item.url}">{item.text}</a>
+            <a className="navbar-item" href="{item.url}">{item.url}</a>
           </p>
         </section>
       </div>
