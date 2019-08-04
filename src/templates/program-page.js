@@ -27,8 +27,6 @@ export const ProgramPageTemplate = ({
               </div>
             </div>
           </div>
-          <div className="columns">
-          </div>
           <div className="tile is-ancestor">
             <div className="tile is-vertical">
               <div className="tile">
