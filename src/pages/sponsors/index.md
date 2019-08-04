@@ -7,8 +7,7 @@ description: >-
 intro:
   blurbs:
     - image: /img/karl-storz-logo.jpg
-      text: |
-        [KARL STORZ Ukraine](https://www.karlstorz.com/ua/ru/ukraine-kiev.htm)
+      text: <a href="https://www.karlstorz.com/ua/ru/ukraine-kiev.htm>KARL STORZ Ukraine</a>
     - image: /img/лого-больница-мечникова.jpg
       text: Дніпровська обласна клінічна лікарня ім. І.І. Мечнікова
     - image: /img/шдм_original.png
