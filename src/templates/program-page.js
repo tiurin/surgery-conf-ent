@@ -90,8 +90,6 @@ export const programPageQuery = graphql`
       frontmatter {
         title
         main {
-          heading
-          description
           image1 {
             alt
             image {
