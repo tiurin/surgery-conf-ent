@@ -84,14 +84,6 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="Oberig" href="https://oberig.ua">
-                  <img
-                    className="fas fa-lg"
-                    src={oberig}
-                    alt="Oberig"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
               </div>
             </div>
           </div>
