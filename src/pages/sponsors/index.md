@@ -15,5 +15,8 @@ intro:
     - image: /img/шдм_original.png
       text: Школа доказової медицини
       url: 'https://shdm.school/'
+    - image: /img/transmedlogo-1.jpg
+      text: 'компанія Трансмед '
+      url: ' http://transmed.com.ua/uk'
 ---
 
